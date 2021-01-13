@@ -100,7 +100,6 @@ class CanvasEditorView : RelativeLayout{
             ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT
         )
         mPaintView.layoutParams = params
-        mPaintView.setBackgroundColor(ContextCompat.getColor(context, android.R.color.white))
         addView(mPaintView)
 
         mStickerView.layoutParams = params
